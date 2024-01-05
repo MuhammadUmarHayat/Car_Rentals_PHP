@@ -1,0 +1,3 @@
+carrentalstp
+
+SELECT car_rental_requests.*,cars.* FROM car_rental_requests JOIN cars ON car_rental_requests.carid = cars.id WHERE car_rental_requests.status = 'approved'
